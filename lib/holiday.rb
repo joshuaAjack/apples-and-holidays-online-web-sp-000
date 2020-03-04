@@ -17,8 +17,7 @@ end
 
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
   holiday_hash[season][holiday_name] = supply_array
-  holiday_hash
-end
+  holiday_hashend
 
 def all_winter_holiday_supplies(holiday_hash)
 holiday_hash[:winter].values.flatten
@@ -38,7 +37,6 @@ holiday_hash.collect{ |season, holidays|
       supplies.include?("BBQ")
     }.keys
   }.flatten
-
 end
 
 
