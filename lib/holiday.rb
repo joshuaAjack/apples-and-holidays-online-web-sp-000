@@ -36,7 +36,6 @@ holiday_hash.collect{ |season, holidays|
     }.keys
   }.flatten
 end
-end
 
 
 
